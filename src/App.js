@@ -98,7 +98,7 @@ function OverlayManager({ params }) {
 
   const env = params.env || 'live';
   const sid = params.sid || 'History_channel';
-  const region = params.region || 'eu-west-2';
+  const region = params.region || 'eu-west-1';
   const styling = params.styling || 'grownup';
   const uvpids = params?.uvpids?.split(',') || '';
   const nowThenLater = ['Next', 'Then', 'Later'];
