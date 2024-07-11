@@ -97,10 +97,10 @@ function OverlayManager({ params }) {
   const previewMinutes = params.next ? parseInt(params.next) : 2;
 
   const env = params.env || 'live';
-  const sid = params.sid || 'childrens_animation';
+  const sid = params.sid || 'History_channel';
   const region = params.region || 'eu-west-2';
   const styling = params.styling || 'grownup';
-  const uvpids = params?.uvpids?.split(',') || 'p0h9w65s,p0hpqd48,p0g60z9m,p0gb2w5l,p0g5jz63,p0h9w65s,p0g60z9m,p0fdt8tk,p0fdrymx'.split(',');
+  const uvpids = params?.uvpids?.split(',') || '';
   const nowThenLater = ['Next', 'Then', 'Later'];
 
   //Now Next react hooks
