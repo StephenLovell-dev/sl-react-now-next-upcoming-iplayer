@@ -1,6 +1,6 @@
 {
-  "name": "react-now-next-upcoming",
-  "homepage": "http://ws-dazzler-web-statics.s3-website-eu-west-1.amazonaws.com",
+  "name": "sl-react-now-next-upcoming",
+  "homepage": "https://stephenlovell-dev.github.io/sl-react-now-next-upcoming-iplayer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
